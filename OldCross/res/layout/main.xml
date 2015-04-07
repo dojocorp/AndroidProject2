@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/menubar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backmenutop02"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/bclose"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/iconclose" />
+
+        <Button
+            android:id="@+id/breset"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/bclose"
+            android:background="@drawable/iconreset" />
+
+        <Button
+            android:id="@+id/blog"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/breset"
+            android:background="@drawable/iconscore" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/gridcenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menubar"
+        android:layout_centerHorizontal="true"
+        android:shrinkColumns="1"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/gridh01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b02"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b03"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gridh02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b04"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b05"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b06"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gridh03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/b07"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b08"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+            <Button
+                android:id="@+id/b09"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/icontank"
+                android:maxHeight="60dp"
+                android:maxWidth="25dp" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

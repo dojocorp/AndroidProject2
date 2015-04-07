@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DuelRun/DuelRun.iml" filepath="$PROJECT_DIR$/DuelRun/DuelRun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DuelRunLite/DuelRunLite.iml" filepath="$PROJECT_DIR$/DuelRunLite/DuelRunLite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DuelRunPlus/DuelRunPlus.iml" filepath="$PROJECT_DIR$/DuelRunPlus/DuelRunPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicLife/MagicLife.iml" filepath="$PROJECT_DIR$/MagicLife/MagicLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MatematicaSimples/MatematicaSimples.iml" filepath="$PROJECT_DIR$/MatematicaSimples/MatematicaSimples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OldCross/OldCross.iml" filepath="$PROJECT_DIR$/OldCross/OldCross.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCCUser/TCCUser.iml" filepath="$PROJECT_DIR$/TCCUser/TCCUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+
